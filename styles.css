@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.eye {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+  margin: 20px;
+}
+
+.pupil {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 35px;  /* Centrando pupil verticalmente dentro del eye */
+  left: 35px;  /* Centrando pupil horizontalmente dentro del eye */
+  transition: all 0.05s;
+}
